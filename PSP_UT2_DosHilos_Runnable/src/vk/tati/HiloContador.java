@@ -1,7 +1,11 @@
 package vk.tati;
 
+/**
+@author Tatiana González Prieto
+*/
+
 public class HiloContador implements Runnable{
-//	
+	
 	private String name;
 	public void setName(String n){name = n;}
 	public String getName(){return name;}
