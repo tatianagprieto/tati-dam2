@@ -20,6 +20,7 @@ public class HiloContador implements Runnable{
 	
 	//Idéntico al run() del ejercicio PSP_UT2_DosHilos_Thread
 	public void run(){
+		String name = Thread.currentThread().getName();
 		System.out.println("Comienza la ejecución de " +name);
 		for (int i=2; i<201; i+=2){System.out.println(name +" imprimiendo " +i);}
 		System.out.println("Termina la ejecución de " +name);
