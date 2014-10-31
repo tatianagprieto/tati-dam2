@@ -14,8 +14,8 @@ public class HiloPrincipal {
 //		Thread hilo2 = new Thread(new HiloContador("Hilo 2"));
 				
 		HiloContador contador = new HiloContador();
-		Thread hilo1 = new Thread(contador, "Hilo A");
-		Thread hilo2 = new Thread(contador, "Hilo B");
+		Thread hilo1 = new Thread(contador, "Hilo 1");
+		Thread hilo2 = new Thread(contador, "Hilo 2");
 	
 		hilo1.start();
 		hilo2.start();
