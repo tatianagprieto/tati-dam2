@@ -20,25 +20,18 @@ public class Orden {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Hilo h = new Hilo();
-		Semaphore sm = new Semaphore(1);		
+		
+		Semaphore sm = new Semaphore(1);	
+		Hilo h = new Hilo(sm);
+		
 		ArrayList<Thread> hilo = new ArrayList<Thread>(); 
 		for (int i=1; i<3; i++){
-			hilo.add(new Thread(h, "Hilo " +i));			
+			hilo.add(new Thread(h, "Hilo " +i));	
 		}
 		
-		for (int i= 1; i>-1; i--){
-			try {
-				sm.acquire();
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			hilo.get(i).start();
-			sm.release();
-		}
-
+		hilo.get(1).start();
+		hilo.get(0).start();
+		//Así no rula :(
 
 	}
-
 }
