@@ -4,8 +4,8 @@ public class CondicionCarrera1Main {
 	public static Contador cont;
 	public static void main(String[] args) {
 		cont = new Contador(0);
-		Hilo1 h1 = new Hilo1();
-		Hilo2 h2 = new Hilo2();
+		Hilo1 h1 = new Hilo1("Hilo 1", cont);
+		Hilo2 h2 = new Hilo2("Hilo 1", cont);
 		h1.start();
 		h2.start();
 		try{
