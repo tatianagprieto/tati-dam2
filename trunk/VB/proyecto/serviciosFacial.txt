@@ -1,0 +1,16 @@
+Limpieza de cutis piel seca;Estimula la síntesis de los emolientes naturales y oxigena;45;0;0;
+0
+Limpieza de cutis piel grasa;Suaviza el microrrelieve cutáneo y combate la flora que provoca las impurezas;45;0;0;0
+Limpieza de cutis piel desvitalizada;Clarifica aportando luz y antioxidantes;45;0;0;0
+Limpieza de cutis piel sensible;Descongestiona oxigenando y fortaleciendo la barrera cutánea;45;1;4;160
+Limpieza de cutis piel alípica;Nutricional: aporta alimento a la piel;45;1;4;160
+Tratamiento ultrahidratante específico antiedad;Mantiene los niveles de hidratación y evita el envejecimiento;42;1;4;150
+Tratamiento reafirmante;Estimula la síntesis de colágeno y fibras elásticas;42;1;4;150
+Tratamiento antiarrugas;Corrige marcas estimulando y regenerando la piel;42;1;4;150
+Tratamiento vitamina C+;Estimula la síntesis de colágeno. Aclara manchas y protege el ADN;42;1;4;150
+Tratamiento renovador microexfoliante Radiance;Peeling intensivo revitalizante. Cicatriza y aporta luz;38;1;4;135
+Tratamiento exfoliante depigmentante Urban White;Unifica el tono y elimina las descromías (manchas solares y de la edad);60;1;6;220
+Tratamiento dermopeel + Kit exfoliante;Renovación cutánea para corregir marcas de acné y cicatrices;60;1;6;220
+Tratamiento corrector arrugas profundas;Redensifica y regenera (veneno de víbora y ácido hialurónico);60;1;4;390
+Tratamiento Eternal de células madre;Activa la producción y el crecimiento y la calidad de las células hijas;52;1;4;195
+Tratamiento exclusivo Global Lift;Lifting japonés manual. Redefine el óvalo así como  cuello y pómulo en una misma sesión;60;1;4;400

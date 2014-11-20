@@ -1,0 +1,57 @@
+Manicura Básica;;10;0;0;0
+
+Manicura Tratamiento peeling;;15;0;0;0
+
+Manicura Cuti-age a los frutos rojos;;25;0;0;0
+
+Manicura Cuti-age con parafina;;15;0;0;0
+
+Pedicura Básica;;17;0;0;0
+
+Pedicura Tratamiento peeling;;25;0;0;0
+
+Pedicura Cuti-age a los frutos rojos;;35;0;0;0
+
+Día;;18;0;0;0
+
+Noche;;20;0;0;0
+
+Fiesta;;22;0;0;0
+
+Novia prueba;;30;0;0;0
+
+Brazos;;16;0;0;0
+
+½ brazos;;8;0;0;0
+
+Mentón;;2.5;0;0;0
+
+Lumbares;;8;0;0;0
+
+Piernas;;26;0;0;0
+
+½ piernas;;14;0;0;0
+
+Axilas;;6;0;0;0
+
+Labio;;5;0;0;0
+
+Cejas;;6;0;0;0
+
+Ingles N;;5;0;0;0
+
+Ingles B;;7;0;0;0
+
+Pubis integral;;17;0;0;0
+
+Glúteos;;10;0;0;0
+
+Línea alba;;7;0;0;0
+
+Cejas / labio / pecho;;12;0;0;0
+
+Línea alba / manos / pies / ingles N;;15;0;0;0
+
+½ brazos / axilas / ingles B / lumbar / hombros / ½ piernas / pómulos;;25;0;0;0
+
+Piernas enteras / brazos enteros;;50;0;0;0

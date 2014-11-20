@@ -1,0 +1,94 @@
+﻿;;;;;;
+;Tratamiento Facial;;;;;
+;
+Limpieza de cutis piel seca;Estimula la síntesis de los emolientes naturales y oxigena;45;0;0;
+0
+Limpieza de cutis piel grasa;Suaviza el microrrelieve cutáneo y combate la flora que provoca las impurezas;45;0;0;0;
+Limpieza de cutis piel desvitalizada;Clarifica, aporta luz y antioxidantes;45;0;0;0
+Limpieza de cutis piel sensible;Descongestiona, oxigena y fortalece la barrera cutánea;45;1;4;160;
+Limpieza de cutis piel alípica;"Nutricional; aporta alimento a la piel";45;4;160
+Tratamiento ultrahidratante específico antiedad;Mantiene los niveles de hidratación y evita el envejecimiento;42;4;150
+Tratamiento reafirmante;Estimula la síntesis de colágeno y fibras elásticas;42;4;150
+Tratamiento antiarrugas;Corrige marcas estimulando y regenerando la piel;42;4;150
+Tratamiento vitamina C+;"Estimula la síntesis de colágeno; aclara manchas y protege el ADN";42;4;150
+Tratamiento renovador microexfoliante Radiance;"Peeling intensivo revitalizante; cicatrizante; aporta luz";38;4;135
+Tratamiento exfoliante depigmentante Urban White;Unifica el tono y elimina las descromías (manchas solares y de la edad);60;6;220
+Tratamiento dermopeel + Kit exfoliante;Renovación cutánea para corregir marcas de acné y cicatrices;60;6;220
+Tratamiento corrector arrugas profundas;Redensifica y regenera (veneno de víbora y ácido hialurónico);60;4;390;+ Producto
+;
+Tratamiento Eternal de células madre;"Activa la producción; el crecimiento y la calidad de las células hijas";52;4;195
+Tratamiento exclusivo Global Lift;"Lifting japonés manual. Redefine el óvalo; cuello y pómulo en una misma sesión";60;4;400;+ Producto
+
+
+;;;;;;
+;Tratamiento Corporal;;;;;
+;
+Limpieza corporal + masaje;"Exquisita sesión regenerante para cualquier temporada del año; ideal para el comienzo y fin de vacaciones";40;;;
+;
+"Limpieza localizada; espalda o piernas + masaje";"Sesión purificadora con halo de vapor; extracción de comedones; mascarilla hidratante calmante y masaje tonificante";64;;;
+;
+Masaje drenante manual + sesión presojet;"Ideal para eliminar toxinas; drenar líquidos y estilizar la figura";50;;;
+;
+Tratamiento reafirmante de senos a los frutos rojos;Masaje oxigenante manual + envoltura + aparatología;36;;;
+;
+Tratamiento antiestrías + fotorrejuvenecimiento;Masaje oxigenante. Envoltura de frutos rojos + sesión de fotorrejuvenecimiento IPL;60;;;Cada dos meses
+;
+Tratamiento adelgazante personalizado a cada tipo morfológico;M. manual oxigenante + m. activante + vendas antigravidez + envolturas corporales + Peeling ácido + electroestimulación + corriente galvánica + presoterapia;38;;;Duración: 75 min
+;
+Tratamiento exclusivo vendas calientes súper reductoras;Peeling + m. oxigenante + vendas calientes + presoterapia + ducha + crema perla blanca;80;;;
+;
+Tratamiento Body Slindy;"Pack súper drenante y antigravidez; efecto pérdida de volúmen";60;;;
+;
+Tratamientos express 15 días;Tratamiento intensivo adelgazante en cabina;390;;;+ Producto | 3 días/semana
+;Masaje relax cromaterapia;25 min: 20 | 30 min: 25 | 1 h:55 | 1 h y 15 min: 65;;;;
+;Bonos premamá y post-parto;Tratamiento preparatorio súper hidratante y nutritivo abdómen;60;5;245;+ 10 sesiones presoterapia
+;Tratamiento post-parto;Tratamiento reafirmante intensivo: m. oxigenante + electroestimulación + presoterapia;;;;
+;;;;;;
+;Estética básica;;;;;
+;Manicura;;;;;
+;Básica;;10;;;
+;Tratamiento peeling;;15;;;
+;Cuti-age a los frutos rojos;;25;;;
+;Cuti-age con parafina;;15;;;
+;;;;;;
+;Pedicura;;;;;
+;Básica;;17;;;
+;Tratamiento peeling;;25;;;
+;Cuti-age a los frutos rojos;;35;;;
+;;;;;;
+;Maquillaje;;;;;
+;Día;;18;;;
+;Noche;;20;;;
+;Fiesta;;22;;;
+;Novia prueba;;30;;;
+;;;;;;
+;Depilación;;;;;
+;Fría;;;;;
+;Brazos;;16;;;
+;½ brazos;;8;;;
+;Mentón;;2.5;;;
+;Lumbares;;8;;;
+;Piernas;;26;;;
+;½ piernas;;14;;;
+;;;;;;
+;Caliente;;;;;
+;Axilas;;6;;;
+;Labio;;5;;;
+;Cejas;;6;;;
+;Ingles N;;5;;;
+;Ingles B;;7;;;
+;Pubis integral;;17;;;
+;Glúteos;;10;;;
+;Línea alba;;7
+
+;;;
+;;;;;;
+;I.P.L;;;;;
+;
+Cejas / labio / pecho;;12;;;
+;
+Línea alba / manos / pies / ingles N;;15;;;
+;
+½ brazos / axilas / ingles B / lumbar / hombros / ½ piernas / pómulos;;25;;;
+;
+Piernas enteras / brazos enteros;;50;;;

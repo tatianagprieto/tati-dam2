@@ -1,0 +1,31 @@
+Cejas;;12;0;0;0
+
+Labio;;12;0;0;0
+
+Pecho;;12;0;0;0
+
+Línea alba;;15;0;0;0
+
+Manos;;15;0;0;0
+
+Pies;;15;0;0;0
+
+Ingles tradicional;;15;0;0;0
+
+Medios brazos;;25;0;0;0
+
+Axilas;;25;0;0;0
+
+Ingles brasileñas;;25;0;0;0
+
+Lumbar;;25;0;0;0
+
+Hombros;;25;0;0;0
+
+Medias piernas;;25;0;0;0
+
+Pómulos;;25;0;0;0
+
+Piernas enteras;;50;0;0;0
+
+Brazos enteros;;50;0;0;0

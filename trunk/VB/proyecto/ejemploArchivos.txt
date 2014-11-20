@@ -1,0 +1,58 @@
+Imports System.IO
+
+Public Class Form1
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Dim ficheroLogin As New FileStream("C:/eleemeTPV/datosLogin.txt", FileMode.Append, FileAccess.Write)
+        'Dim sr As New StreamReader(ficheroLogin)
+        Dim sw As New StreamWriter(ficheroLogin)
+        sw.WriteLine(TextBox1.Text)
+        sw.Close()
+        ficheroLogin.Close()
+
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        Dim ficheroLogin As New FileStream("C:/eleemeTPV/datosLogin.txt", FileMode.Open, FileAccess.Read)
+        Dim sr As New StreamReader(ficheroLogin)
+        Dim token() As String
+        token = New String(2) {}
+        Dim linea() As String
+        Dim n As Integer = File.ReadAllLines("C:/eleemeTPV/datosLogin.txt").Length
+        'ficheroLogin.See()
+
+
+        linea = New String(n) {}
+        For i As Integer = 0 To n 'for malvado
+            linea(i) = sr.ReadLine
+            token = (linea(i)).Split(";") 'si está el for, peta aquí
+            ListBox1.Items.Add(token(0))
+        Next 'next malvado
+
+
+    End Sub
+
+    Public Structure datos
+        Dim n As Integer
+        Shared campo1 As String
+        Shared campo2 As String
+    End Structure
+    Public lectura As datos
+    Public linea As String
+    Public cacho As String
+    Public tokens() As String = New String(6) {}
+    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+        FileOpen(1, "C:/eleemeTPV/serviciosCorporal.txt", OpenMode.Input)
+        'For i As Integer = 0 To 3
+        While Not EOF(1)
+            Input(1, linea)
+            tokens = Split(linea, "|")
+            MsgBox(tokens.Length)
+            'cacho = linea.Split(";")(2)
+            'cacho = tokens(2)
+            'ListBox1.Items.Add(cacho)
+        End While
+
+        'Next
+    End Sub
+End Class
