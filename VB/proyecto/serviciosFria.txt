@@ -1,0 +1,11 @@
+Brazos;;16;0;0;0
+
+½ brazos;;8;0;0;0
+
+Mentón;;25;0;0;0
+
+Lumbares;;8;0;0;0
+
+Piernas;;26;0;0;0
+
+½ piernas;;14;0;0;0

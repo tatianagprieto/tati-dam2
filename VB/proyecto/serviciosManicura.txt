@@ -1,0 +1,7 @@
+Manicura Básica;;10;0;0;0
+
+Manicura Tratamiento peeling;;15;0;0;0
+
+Manicura Cuti-age a los frutos rojos;;25;0;0;0
+
+Manicura Cuti-age con parafina;;15;0;0;0

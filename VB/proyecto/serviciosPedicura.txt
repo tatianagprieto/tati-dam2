@@ -1,0 +1,5 @@
+Pedicura Básica;;17;0;0;0
+
+Pedicura Tratamiento peeling;;25;0;0;0
+
+Pedicura Cuti-age a los frutos rojos;;35;0;0;0

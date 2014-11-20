@@ -1,0 +1,22 @@
+Limpieza corporal + masaje;Exquisita sesión regenerante para cualquier temporada del año ideal para el comienzo y fin de vacaciones;40;0;0;0
+
+Limpieza localizada (espalda o piernas) + masaje;Sesión purificadora con halo de vapor. Extracción de comedones. Mascarilla hidratante calmante y masaje tonificante;64;0;0;0
+
+Masaje drenante manual + sesión presojet;Ideal para eliminar toxinas. Drena líquidos y estiliza la figura;50;0;0;0
+Tratamiento reafirmante de senos a los frutos rojos;Masaje oxigenante manual + envoltura + aparatología;36;0;0;0
+Tratamiento antiestrías + fotorrejuvenecimiento;Masaje oxigenante. Envoltura de frutos rojos + sesión de fotorrejuvenecimiento IPL (Cada dos meses);60;0;0;0
+Tratamiento adelgazante personalizado a cada tipo morfológico;M. manual oxigenante + m. activante + vendas antigravidez + envolturas corporales + Peeling ácido + electroestimulación + corriente galvánica + presoterapia (Duración: 75 min
+);38;0;0;0
+Tratamiento exclusivo vendas calientes súper reductoras;Peeling + m. oxigenante + vendas calientes + presoterapia + ducha + crema perla blanca;80;0;0;0
+
+Tratamiento Body Slindy;Pack súper drenante y antigravidez. Efecto pérdida de volúmen;60;0;0;0
+
+Tratamientos express 15 días;Tratamiento intensivo adelgazante en cabina. Tres días a la semana. (Incluye producto);390;0;0;0
+Masaje relax cromaterapia;25 minutos;20;0;0;0
+Masaje relax cromaterapia;30 minutos;25;0;0;0
+Masaje relax cromaterapia;1 hora;55;0;0;0
+Masaje relax cromaterapia;1 hora y 15 minutos;65;0;0;0
+Bonos premamá y post-parto;Tratamiento preparatorio súper hidratante y nutritivo abdómen (REGALO: 10 sesiones presoterapia
+);60;1;5;245
+Presoterapia apta para embarazadas;SÓLO REGALO;0;1;10;0
+Tratamiento post-parto;Tratamiento reafirmante intensivo: m. oxigenante + electroestimulación + presoterapia;0;1;10;390
