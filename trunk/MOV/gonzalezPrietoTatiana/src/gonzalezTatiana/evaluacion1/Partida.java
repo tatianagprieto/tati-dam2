@@ -1,18 +1,34 @@
 package gonzalezTatiana.evaluacion1;
 
-public class Partida {
-	private Jugador jugador1, jugador2, turnoActual, ganador;
-	
-	Casilla[][] tablero = {{new Casilla(EstadoCasilla.VACIA, PosicionCasilla.TL), new Casilla(EstadoCasilla.VACIA, PosicionCasilla.TC),new Casilla(EstadoCasilla.VACIA, PosicionCasilla.TR)},
-			{new Casilla(EstadoCasilla.VACIA, PosicionCasilla.ML), new Casilla(EstadoCasilla.VACIA, PosicionCasilla.MC),new Casilla(EstadoCasilla.VACIA, PosicionCasilla.MR)},
-			{new Casilla(EstadoCasilla.VACIA, PosicionCasilla.BL), new Casilla(EstadoCasilla.VACIA, PosicionCasilla.BC),new Casilla(EstadoCasilla.VACIA, PosicionCasilla.BR)}};
-	
-	public Partida(Jugador jugador1, Jugador jugador2){
-		this.jugador1 = jugador1;
-		this.jugador2 = jugador2;
-		this.turnoActual = jugador1;
-		this.ganador = null;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class Partida extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_partida);
 	}
-	
-	
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.partida, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
 }
