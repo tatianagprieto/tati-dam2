@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tres en raya - GonzalezPrietoTatiana</string>
+    <string name="action_settings">Preferencias</string>
+    
+    <string name="jugador1">Jugador 1</string>
+    <string name="nombreJugador1"></string>
+    <string name="jugador2">Jugador 2</string>
+    <string name="nombreJugador2"></string>
+    
+    <string name="avisoFaltaNombre">El nombre del jugador no puede estar vacío</string>
+    <string name="avisoNombresIguales">Los nombres de los jugadores no pueden ser iguales</string>
+    <string name="avisoFaltaColor">Selecciona un color para el jugador</string>
+    <string name="avisoColoresIguales">Los colores de los jugadores no pueden ser iguales</string>
+    
+    <string name="avisoTrampa">¡No hagas trampa!</string>
+    
+    <string name="ganador">¡Tenemos ganador!</string>
+    <string name="empate">Empate, ¡cómo no!</string>
+    
+    <string name="turno">Es el turno de: </string>
+    
+    <string name="textoEscoge1">JUGADOR 1, escoge nombre y color:</string>
+	<string name="textoEscoge2">JUGADOR 2, escoge nombre y color:</string>
+	
+	<string name="naranja">Naranja</string>
+	<string name="azul">Azul</string>
+	<string name ="verde">Verde</string>
+	
+	<string name="escribe">Escribe tu nombre</string>
+</resources>
