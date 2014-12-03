@@ -1,0 +1,6 @@
+título:Carrie
+género:Terror
+título:Trilogía sucia de La Habana
+género:Realismo sucio
+título:Farenheit 273
+género:Ciencia Ficción
