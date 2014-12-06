@@ -28,12 +28,17 @@ public class GonzalezPrietoTatiana extends Activity implements OnClickListener{
 		
         
         //Vistas
-        vsOtro = (RadioButton) findViewById(R.id.vsOtro);
-        vsCPU = (RadioButton) findViewById(R.id.vsCPU);
-        jugar = (Button) findViewById(R.id.botonComenzarJuego);
+		coloresJugador1.add( (RadioButton) findViewById(R.id.naranja) );
+		coloresJugador1.add( (RadioButton) findViewById(R.id.verde) );
+		coloresJugador1.add( (RadioButton) findViewById(R.id.azul) );
+		coloresJugador2.add( (RadioButton) findViewById(R.id.naranja) );
+		coloresJugador2.add( (RadioButton) findViewById(R.id.verde) );
+		coloresJugador2.add( (RadioButton) findViewById(R.id.azul) );
+
+        aJugar = (Button) findViewById(R.id.jugar);
         
         //Listener
-        jugar.setOnClickListener(this);
+        aJugar.setOnClickListener(this);
 	}
 
 	@Override

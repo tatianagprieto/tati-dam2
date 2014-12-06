@@ -22,6 +22,6 @@
     <string name="verde">Verde</string>
     <string name="escribe">Escribe tu nombre</string>
     <string name="title_activity_partida">Tres en Raya</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="jugar">¡A jugar!</string>
 
 </resources>
