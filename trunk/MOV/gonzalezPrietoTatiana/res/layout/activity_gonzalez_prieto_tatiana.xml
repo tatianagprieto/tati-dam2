@@ -68,4 +68,10 @@
             android:text="@string/azul"/>
     </RadioGroup>
     
+    <Button
+        android:id="@+id/jugar"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/jugar"
+    />
 </LinearLayout>
