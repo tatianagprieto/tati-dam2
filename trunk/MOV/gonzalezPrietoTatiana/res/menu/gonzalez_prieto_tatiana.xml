@@ -3,9 +3,22 @@
     tools:context="gonzalezTatiana.evaluacion1.GonzalezPrietoTatiana" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/acercaDe"
         android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:title="@string/acercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"/>
 
+    <item
+        android:id="@+id/configuracion"
+        android:orderInCategory="200"
+        android:title="@string/configuracion"
+        android:icon="@android:drawable/ic_menu_manage" 
+        />
+    
+    <item
+        android:id="@+id/historico"
+        android:orderInCategory="300"
+        android:title="@string/historico"
+        android:icon="@android:drawable/ic_menu_recent_history"
+    	/>
 </menu>

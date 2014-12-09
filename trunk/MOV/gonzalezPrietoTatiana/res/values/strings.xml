@@ -7,14 +7,14 @@
     <string name="nombreJugador1"></string>
     <string name="jugador2">Jugador 2</string>
     <string name="nombreJugador2"></string>
-    <string name="avisoFaltaNombre">El nombre del jugador no puede estar vacío</string>
+    <string name="avisoFaltaNombre">El nombre del jugador %1$s no puede estar vacío</string>
     <string name="avisoNombresIguales">Los nombres de los jugadores no pueden ser iguales</string>
-    <string name="avisoFaltaColor">Selecciona un color para el jugador</string>
+    <string name="avisoFaltaColor">Selecciona un color para el jugador %1$s</string>
     <string name="avisoColoresIguales">Los colores de los jugadores no pueden ser iguales</string>
     <string name="avisoTrampa">¡No hagas trampa!</string>
-    <string name="ganador">¡Tenemos ganador!</string>
+    <string name="ganador">¡Tenemos ganador! ¡%1$s!</string>
     <string name="empate">Empate, ¡cómo no!</string>
-    <string name="turno">Es el turno de: </string>
+    <string name="turno">Es el turno de: %1$s</string>
     <string name="textoEscoge1">JUGADOR 1, escoge nombre y color:</string>
     <string name="textoEscoge2">JUGADOR 2, escoge nombre y color:</string>
     <string name="naranja">Naranja</string>
@@ -23,5 +23,20 @@
     <string name="escribe">Escribe tu nombre</string>
     <string name="title_activity_partida">Tres en Raya</string>
     <string name="jugar">¡A jugar!</string>
-
+    <string name="versus">%1$d VS %2$</string>
+    <string name="vacia"></string>
+    <string name="acercaDe">Acerca de</string>
+    <string name="autor">Desarrollado para práctica 1Ev \n Autor: González Prieto, Tatiana</string>
+    <string name="configuracion">Configuración</string>
+    <string name="historico">Histórico</string>
+	<string name="titleMusica">Activar música</string>
+	<string name="summaryMusica">Marque esta opción para reproducir música durante el juego</string>
+	<string name="castellano">Español</string>
+	<string name="ingles">Inglés</string>
+	<string name="gallego">Gallego</string>
+	<string name="volver">Volver</string>
+	<string name="salir">Salir</string>
+	<string name="partidaEnCurso">No se puede volver hasta finalizar la partida.</string>
+	<string name="resultadoEmpate">Empate</string>
+	<string name="resultadoGanador">Ganador: %1$s</string>
 </resources>
