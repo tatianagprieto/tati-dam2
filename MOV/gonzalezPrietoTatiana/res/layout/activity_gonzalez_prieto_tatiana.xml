@@ -18,6 +18,7 @@
     <EditText android:id = "@+id/nombre1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text = "@string/vacia"
         android:hint = "@string/escribe"/>
     
     <RadioGroup
@@ -53,6 +54,7 @@
     <EditText android:id = "@+id/nombre2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text = "@string/vacia"
         android:hint="@string/escribe"/>
     
     <RadioGroup
@@ -60,11 +62,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
-        <RadioButton android:id="@id/naranja"
+        <RadioButton android:id="@+id/naranja2"
             android:text="@string/naranja"/>
-        <RadioButton android:id="@id/verde"
+        <RadioButton android:id="@+id/verde2"
             android:text="@string/verde"/>
-                <RadioButton android:id="@id/azul"
+        <RadioButton android:id="@+id/azul2"
             android:text="@string/azul"/>
     </RadioGroup>
     

@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="14" />
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
 
     <application
         android:allowBackup="true"
@@ -26,6 +26,15 @@
             android:name=".Partida"
             android:label="@string/title_activity_partida" >
         </activity>
+        
+        <activity android:name=".PantallaConfiguracion"
+		android:label="@string/app_name">
+		</activity>
+		
+        <activity android:name=".HistorialPartidas"
+		android:label="@string/historico">
+		</activity>
+		
     </application>
 
 </manifest>
