@@ -17,13 +17,15 @@ public class Barrera {
 	}
 	
 	/**
+	 * 
+	 * 
+	 * 
 	 * Asigna 0 a la plaza que queda libre e incrementa el contador de plazas libres
 	 * @param idCoche identificador del coche que ocupaba la plaza que va a quedar libre
 	 */
 	synchronized public void liberarPlaza(int idCoche){
 		plazas[buscarCoche(idCoche)] = 0;
 		plazasLibres ++;
-		System.out.println("INFO PARKING: HAY " +plazasLibres +" DISPONIBLES");
 		notify(); //notificamos que hay una plaza disponible
 	}
 	/**
@@ -51,7 +53,7 @@ public class Barrera {
 		return -1;
 	}
 	
-	private int buscarCoche(int idCoche){
+	public int buscarCoche(int idCoche){
 		for(int i=0; i<plazas.length; i++){
 			if (plazas[i]==idCoche) return i;
 		}
