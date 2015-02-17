@@ -24,16 +24,25 @@ public class Recipiente{
 		this.lleno = lleno;
 	}
 
-	public void poner(String s){
-		this.contenido = s;
-		lleno = true;
+	synchronized public boolean poner(String s){
+		if (lleno){
+			return false;
+		}else{
+			this.contenido = s;
+			lleno = true;
+			return true;
+		}
 	}
 	
-	public String quitar(){
-		String aux = contenido;
-		contenido = null;
-		lleno = false;
-		return aux;
+	synchronized public String quitar(){
+		if (lleno){
+			String aux = contenido;
+			contenido = null;
+			lleno = false;
+			return aux;
+		}else{
+			return null;
+		}
 	}
 
 }//clase

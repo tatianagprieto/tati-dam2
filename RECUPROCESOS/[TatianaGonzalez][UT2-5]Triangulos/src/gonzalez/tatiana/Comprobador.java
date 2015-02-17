@@ -1,44 +1,40 @@
 package gonzalez.tatiana;
 
+import java.util.ArrayList;
 import java.util.concurrent.Semaphore;
 
 public class Comprobador extends Thread{
 	
 	private Recipiente recipiente;
-
+	private ArrayList<Integer> datos = new ArrayList<>();
 	public Comprobador(Recipiente recipiente) {
 		this.recipiente = recipiente;
 	}
 
-	private int[] datos = new int[3];
-	
 	public void run(){
-		for(int i = 0; i<datos.length; i++){
-			while (!recipiente.isLleno()){
-				try {
-					wait();
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+		while(datos.size()<3){
+			String lectura = recipiente.quitar();
+			if (!lectura.equals(null)){
+				datos.add(Integer.parseInt(lectura));
 			}
-			datos[i] = Integer.parseInt(recipiente.quitar());
-			notify();
-//			try {
-//				recipiente.semaforoLector.acquire();
-//				recipiente.semaforoUso.acquire();
-//				datos[i] = Integer.parseInt(recipiente.quitar());
-//				recipiente.semaforoLector.release();
-//				recipiente.semaforoUso.release();
-//			} catch (NumberFormatException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			} catch (InterruptedException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
 		}
-		System.out.println(datos[0] +" " +datos[1] +" " +datos[2] +" " );
+		for (int i:datos) System.out.println(i);
+		if (comprobar()) recipiente.poner("SÍ");
+		else recipiente.poner("NO");
+	}
+
+	public boolean comprobar(){
+		if(mayor(datos)<=sumaMenores(datos)) return true;
+		else return false;
+	}
+	
+	public int mayor(ArrayList<Integer> datos){
+		return Math.max(datos.get(0), Math.max(datos.get(1), datos.get(2)));
+	} 
+	
+	public int sumaMenores(ArrayList<Integer> datos){
+		datos.remove((Object) mayor(datos));
+		return datos.get(0)+datos.get(1);
 	}
 	
 }
